@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(66, 95, 95);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+}
+
+footer p {
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(66, 95, 95);
+    color: white;
+    padding: 10px 0;
+}
+
+li {
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.about {
+    padding: 15px;
+    line-height: 25px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container #formMsj {
+    position: relative;
+    left: 500px;
+}
+
+.form-container input, .form-container input[type-text], .form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-container input:focus, .form-container input[type-text]:focus, .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container #submit {
+    background-color: #04aa6d;
+    color: white;
+    border: none;
+    width:  316px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    padding: 8px;
+}
+
+.form-container #reset {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 316px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    padding: 8px;
+}
+
+.form-container #submit:hover, .form-container #reset:hover {
+    opacity: 1;
+}
+
+.formNeg {
+    display: none;
+    border: 3px solid #f1f1f1;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 20px 0 20px 0;
+    position: relative;
+    left: 470px;
+}
+
+.guiaCom {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.intro {
+    text-align: center;
+    padding: 10px 0;
+    line-height: 35px;
+}
+
+#btnCargarDatos, #btnEliminar, #btnModificar, #delete, #mostrarDueños {
+    display: inline-block;
+    text-align: center;
+    padding: 8px 18px;
+    font-size: 15px;
+    background-color: #555;
+    color: white;
+    border: none;
+    opacity: 0.8;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+#delete {
+    position: relative;
+    left: 135px;
+}
+
+#btnCargarDatos:hover, #btnEliminar:hover, #btnModificar:hover, #delete:hover, #mostrarDueños:hover {
+    opacity: 1;
+}
+
+#btnComenzar {
+    display: inline-block;
+    text-align: center;
+    padding: 12px 34px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-color: #555;
+    color: white;
+    border: none;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+#btnComenzar:hover {
+    opacity: 1;
+}
+
+#cargarDatos {
+    position: relative;
+    left: 500px;
+}
+
+#cargaNeg {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+#cerrarForm {
+    align-self: flex-start;
+    color: black;
+    font-size: 35px;
+    padding: 0px 0 0 7px;
+}
+
+#cerrarForm:hover {
+    text-decoration: none;
+}
+
+#contacto {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+#eliminarDatos {
+    position: relative;
+    left: 500px;
+}
+
+#modificarDatos {
+    position: relative;
+    left: 500px;
+}
+
+#tit-delete {
+    margin-bottom: 10px;
+}
+
+#tit-guiaCom {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+#tit-update {
+    position: relative;
+    left: 15px;
+}
+
+#tit-user {
+    position: relative;
+    left: 35px;
+}
+
+#title-guiaCom {
+    text-align: center;
+    padding: 12px 0;
+}
+
+#vistaPrevia, #tabla-guia {
+    border-collapse: collapse;
+    width: auto;
+}
+
+#vistaPrevia td, #vistaPrevia th, #tabla-guia td, #tabla-guia th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    white-space: break-spaces;
+}
+
+#vistaPrevia tr, #tabla-guia tr {
+    text-align: center;
+}
+
+#vistaPrevia tr:nth-child(even), #tabla-guia tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#vistaPrevia tr:hover, #tabla-guia tr:hover {
+    background-color: #ddd;
+}
+
+#vistaPrevia th, #tabla-guia th {
+    background-color: rgb(66, 95, 95);
+    color: white;
+}
